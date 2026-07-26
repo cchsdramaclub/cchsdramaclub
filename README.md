@@ -1,14 +1,16 @@
-# CCHS Wolfpack Drama Club Website - Version 5
+# CCHS Wolfpack Drama Club Website — Version 7
 
-Includes:
-- Animated curtain opening and stage-light effects
-- Expanded About section
-- Gallery-ready visual section
-- Leadership and sponsor section
-- Ticket information section
-- Downloadable audition form
-- Downloadable participation agreement
-- Real Facebook and Instagram links
-- Responsive mobile navigation
+This is a full rebuild from scratch.
 
-Upload every file in this folder to the same GitHub repository.
+Included:
+- Full-screen cinematic hero
+- Animated opening curtains
+- Slowly sweeping spotlights
+- Broadway-inspired typography
+- Smooth scroll reveal animations
+- Professional About, Gallery, Leadership, Tickets, Forms, and Join sections
+- Fully responsive desktop and mobile layouts
+- Real Facebook, Instagram, and email links
+- Downloadable audition and participation forms
+
+Upload every file in this folder to the root of the GitHub repository.
