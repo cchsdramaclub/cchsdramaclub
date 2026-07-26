@@ -1,25 +1,17 @@
-# Wolfpack Drama Club Website
+# CCHS Wolfpack Drama Club Website — Version 2
 
-A responsive GitHub Pages website for the CCHS Drama Club / Wolfpack Drama Club and Thespian Troupe 5517.
+This is a redesigned one-page GitHub Pages website inspired by the approved purple-and-black theatre mockup.
 
-## Upload to GitHub Pages
+## Files
+- `index.html`
+- `styles.css`
+- `script.js`
+- `drama-club-logo.jpg`
 
-1. Create a new public GitHub repository.
-2. Upload all four project files:
-   - `index.html`
-   - `styles.css`
-   - `script.js`
-   - `drama-club-logo.jpg`
-3. Open the repository's **Settings**.
-4. Select **Pages**.
-5. Under **Build and deployment**, choose **Deploy from a branch**.
-6. Select the `main` branch and `/ (root)`.
-7. Click **Save**.
-
-## Before publishing
-
-Open `index.html` and replace:
-- Sample event dates
-- Club sponsor/contact information
-
-The website uses the title **Wolfpack Drama Club** and identifies it as the **CCHS Drama Club** throughout.
+## Publish on GitHub Pages
+1. Create or open the website repository.
+2. Upload all four files to the repository root.
+3. Open **Settings → Pages**.
+4. Select **Deploy from a branch**.
+5. Select the `main` branch and `/ (root)`.
+6. Save and wait a few minutes for the site to publish.

@@ -3,240 +3,137 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Official website of the CCHS Wolfpack Drama Club — Thespian Troupe 5517.">
-  <title>Wolfpack Drama Club | CCHS</title>
+  <meta name="description" content="Official website of the CCHS Wolfpack Drama Club and Thespian Troupe 5517.">
+  <title>Wolfpack Drama Club</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="site-header" id="top">
-    <nav class="nav container" aria-label="Main navigation">
-      <a class="brand" href="#top">
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="#home" class="brand">
         <img src="drama-club-logo.jpg" alt="CCHS Drama Club logo">
-        <span>
-          <strong>Wolfpack Drama Club</strong>
-          <small>CCHS • Thespian Troupe 5517</small>
-        </span>
       </a>
 
-      <button class="menu-toggle" aria-label="Open navigation menu" aria-expanded="false">
+      <button class="menu-button" aria-label="Open menu" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
 
-      <div class="nav-links">
+      <nav class="nav-links">
+        <a class="active" href="#home">Home</a>
         <a href="#about">About</a>
-        <a href="#shows">Productions</a>
-        <a href="#calendar">Calendar</a>
-        <a href="#join">Join</a>
-        <a class="nav-button" href="#contact">Contact</a>
-      </div>
-    </nav>
+        <a href="#events">Events</a>
+        <a href="#join">Join the Club</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
   </header>
 
   <main>
-    <section class="hero">
-      <div class="hero-glow hero-glow-one"></div>
-      <div class="hero-glow hero-glow-two"></div>
+    <section class="hero" id="home">
+      <div class="curtain-lines"></div>
       <div class="container hero-grid">
         <div class="hero-copy">
-          <p class="eyebrow">Cleveland Central High School</p>
-          <h1>Where the <span>Wolfpack</span> takes the stage.</h1>
-          <p class="hero-text">
-            Welcome to the home of the CCHS Wolfpack Drama Club and International
-            Thespian Troupe 5517. We create, perform, learn, and bring stories to life.
-          </p>
-          <div class="hero-actions">
-            <a class="button button-primary" href="#shows">See Our Productions</a>
-            <a class="button button-secondary" href="#join">Join the Club</a>
-          </div>
-          <div class="hero-stats">
-            <div><strong>5517</strong><span>Thespian Troupe</span></div>
-            <div><strong>CCHS</strong><span>Wolfpack Pride</span></div>
-            <div><strong>All</strong><span>Students Welcome</span></div>
-          </div>
+          <h1><span>Wolfpack</span> Drama Club</h1>
+          <div class="accent-line"></div>
+          <p class="subheading">CCHS Drama Club • Thespian Troupe 5517</p>
+          <p class="tagline">Perform. Create. Inspire.</p>
         </div>
 
-        <div class="hero-card">
-          <div class="spotlight"></div>
-          <img src="drama-club-logo.jpg" alt="Wolfpack Drama Club logo">
-          <p>Creativity. Confidence. Community.</p>
+        <div class="hero-logo-wrap">
+          <div class="logo-glow"></div>
+          <img src="drama-club-logo.jpg" alt="Wolfpack Drama Club emblem">
         </div>
       </div>
     </section>
 
-    <section class="announcement">
-      <div class="container announcement-inner">
-        <span class="announcement-label">Now Casting</span>
-        <p>Audition and production announcements will be posted here.</p>
-        <a href="#calendar">View schedule →</a>
-      </div>
-    </section>
-
-    <section class="section" id="about">
-      <div class="container two-column">
-        <div>
-          <p class="section-kicker">About Us</p>
-          <h2>More than a club. We are a company.</h2>
-        </div>
-        <div class="section-copy">
+    <section class="quick-section">
+      <div class="container quick-grid">
+        <article class="quick-card" id="about">
+          <div class="icon">🎭</div>
+          <h2>About Us</h2>
           <p>
-            The CCHS Drama Club gives students a place to explore acting, directing,
-            technical theatre, costume design, set construction, lighting, sound,
-            stage management, and more.
+            Wolfpack Drama Club is all about creativity, collaboration, and community.
+            Whether on stage, behind the scenes, or in the audience, we bring stories
+            to life and create memories that last.
           </p>
-          <p>
-            Whether you love being in the spotlight or prefer working behind the scenes,
-            there is a place for you in the Wolfpack Drama Club.
-          </p>
-        </div>
-      </div>
-
-      <div class="container feature-grid">
-        <article class="feature-card">
-          <div class="feature-number">01</div>
-          <h3>Perform</h3>
-          <p>Build confidence, develop characters, and tell meaningful stories on stage.</p>
+          <a href="#join" class="outline-button">Learn More</a>
         </article>
-        <article class="feature-card">
-          <div class="feature-number">02</div>
-          <h3>Create</h3>
-          <p>Help design sets, costumes, props, lighting, sound, and publicity.</p>
-        </article>
-        <article class="feature-card">
-          <div class="feature-number">03</div>
-          <h3>Belong</h3>
-          <p>Join a supportive community of students who share a love for theatre.</p>
-        </article>
-      </div>
-    </section>
 
-    <section class="section section-dark" id="shows">
-      <div class="container section-heading">
-        <div>
-          <p class="section-kicker">On Stage</p>
-          <h2>Productions</h2>
-        </div>
-        <p>Update these cards with your current and past shows.</p>
-      </div>
-
-      <div class="container show-grid show-grid-single">
-        <article class="show-card show-featured">
-          <div class="show-tag">Coming Soon</div>
-          <div class="show-content">
-            <p class="show-season">2026–2027 Season</p>
-            <h3>Next Production</h3>
-            <p>Show title, audition information, performance dates, and ticket details will appear here.</p>
-            <a href="#contact">Get updates →</a>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section class="section" id="calendar">
-      <div class="container section-heading">
-        <div>
-          <p class="section-kicker">Mark Your Calendar</p>
+        <article class="quick-card" id="events">
+          <div class="icon">🗓️</div>
           <h2>Upcoming Events</h2>
-        </div>
-        <p>Replace these sample events with the club’s real dates.</p>
-      </div>
 
-      <div class="container events-list">
-        <article class="event">
-          <div class="event-date"><span>AUG</span><strong>--</strong></div>
-          <div class="event-info">
-            <p>Club Meeting</p>
-            <h3>Interest Meeting</h3>
-            <span>CCHS • Time to be announced</span>
+          <div class="event-row">
+            <div class="date-box">
+              <span>TBA</span>
+              <strong>--</strong>
+            </div>
+            <div>
+              <h3>Drama Club Meeting</h3>
+              <p>Time to be announced</p>
+              <p>CCHS Auditorium</p>
+            </div>
           </div>
-          <div class="event-type">Meeting</div>
+
+          <div class="event-row">
+            <div class="date-box">
+              <span>TBA</span>
+              <strong>--</strong>
+            </div>
+            <div>
+              <h3>Audition Workshop</h3>
+              <p>Time to be announced</p>
+              <p>CCHS Auditorium</p>
+            </div>
+          </div>
+
+          <div class="event-row">
+            <div class="date-box">
+              <span>TBA</span>
+              <strong>--</strong>
+            </div>
+            <div>
+              <h3>Next Production</h3>
+              <p>Dates to be announced</p>
+              <p>CCHS Auditorium</p>
+            </div>
+          </div>
         </article>
 
-        <article class="event">
-          <div class="event-date"><span>SEP</span><strong>--</strong></div>
-          <div class="event-info">
-            <p>Auditions</p>
-            <h3>Fall Production Auditions</h3>
-            <span>CCHS Auditorium • Time to be announced</span>
-          </div>
-          <div class="event-type">Audition</div>
-        </article>
-
-        <article class="event">
-          <div class="event-date"><span>NOV</span><strong>--</strong></div>
-          <div class="event-info">
-            <p>Performance</p>
-            <h3>Fall Production</h3>
-            <span>CCHS Auditorium • Dates to be announced</span>
-          </div>
-          <div class="event-type">Show</div>
-        </article>
-      </div>
-    </section>
-
-    <section class="section join-section" id="join">
-      <div class="container join-card">
-        <div>
-          <p class="section-kicker">Find Your Role</p>
-          <h2>There is a place for you.</h2>
+        <article class="quick-card" id="join">
+          <div class="icon">👥</div>
+          <h2>Get Involved</h2>
           <p>
-            No previous theatre experience is required. Students can participate as
-            actors, technicians, designers, stage crew, publicity team members, and more.
+            Everyone has a place in drama. Join us on stage, backstage, or as part
+            of the crew and become part of something amazing.
           </p>
-        </div>
-        <div class="join-options">
-          <span>Acting</span>
-          <span>Stage Crew</span>
-          <span>Lighting</span>
-          <span>Sound</span>
-          <span>Costumes</span>
-          <span>Set Design</span>
-          <span>Props</span>
-        </div>
-      </div>
-    </section>
-
-    <section class="section contact-section" id="contact">
-      <div class="container contact-card">
-        <div>
-          <p class="section-kicker">Stay Connected</p>
-          <h2>Contact the Drama Club</h2>
-          <p>
-            Add the sponsor’s name, school email address, social media pages, and meeting
-            information here.
-          </p>
-        </div>
-        <div class="contact-details">
-          <div>
-            <span>School</span>
-            <strong>Cleveland Central High School</strong>
-          </div>
-          <div>
-            <span>Club</span>
-            <strong>Wolfpack Drama Club</strong>
-          </div>
-          <div>
-            <span>Troupe</span>
-            <strong>International Thespian Troupe 5517</strong>
-          </div>
-          <a class="button button-primary" href="mailto:mgrant@cleveland.k12.ms.us">Email the Club</a>
-        </div>
+          <a href="mailto:mgrant@cleveland.k12.ms.us?subject=Wolfpack%20Drama%20Club" class="filled-button">
+            Join the Club
+          </a>
+        </article>
       </div>
     </section>
   </main>
 
-  <footer>
-    <div class="container footer-inner">
-      <div class="footer-brand">
-        <img src="drama-club-logo.jpg" alt="">
-        <div>
-          <strong>Wolfpack Drama Club</strong>
-          <span>CCHS • Thespian Troupe 5517</span>
-        </div>
+  <footer id="contact">
+    <div class="container footer-grid">
+      <a href="mailto:mgrant@cleveland.k12.ms.us" class="footer-item">
+        <span>✉</span>
+        <span>mgrant@cleveland.k12.ms.us</span>
+      </a>
+
+      <div class="footer-item">
+        <span>📍</span>
+        <span>Cleveland Central High School<br>Cleveland, Mississippi</span>
       </div>
-      <p>© <span id="year"></span> CCHS Drama Club. All rights reserved.</p>
+
+      <div class="footer-item footer-name">
+        <span>Wolfpack Drama Club</span>
+        <small>Thespian Troupe 5517</small>
+      </div>
     </div>
   </footer>
 
