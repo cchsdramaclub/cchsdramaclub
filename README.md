@@ -20,8 +20,6 @@ A responsive GitHub Pages website for the CCHS Drama Club / Wolfpack Drama Club 
 
 Open `index.html` and replace:
 - Sample event dates
-- Placeholder show titles
 - Club sponsor/contact information
-- `YOUR-EMAIL@EXAMPLE.COM`
 
 The website uses the title **Wolfpack Drama Club** and identifies it as the **CCHS Drama Club** throughout.

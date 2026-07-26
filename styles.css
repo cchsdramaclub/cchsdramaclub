@@ -435,6 +435,15 @@ a {
   gap: 22px;
 }
 
+
+.show-grid-single {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.show-grid-single .show-card {
+  min-height: 470px;
+}
+
 .show-card {
   min-height: 410px;
   display: flex;
